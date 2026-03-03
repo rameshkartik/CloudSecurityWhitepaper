@@ -69,6 +69,31 @@ This whitepaper provides security leaders, architects, and practitioners with a 
 - [Cloud Security Alliance (CSA)](https://cloudsecurityalliance.org)
 - [AWS Security Best Practices](https://docs.aws.amazon.com/security)
 - [Azure Security Documentation](https://learn.microsoft.com/azure/security)
+
+RDEData
+title : CloudSecurityWallPaper description : This whitepaper provides a comprehensive cloud security framework covering identity management, data protection, threat detection, and compliance to help organizations secure their cloud environments. category: whitepaper sdlcStage : plan personas : ['CTO','AI Developer'] tags : ['AI','Cloud'] metadata: { capability: 'Storage Solution', integrationType: 'Semantic Search', scope: 'Multi-Service Deployments' } previewCodeFileName : NA
+
+RDE_UsageGuide_Install
+command : npm install @reinvention/cloudsec
+
+RDE_UsageGuide_QuickStart
+import { FPP } from '@reinvention/cloudsec';
+
+const app = new FPP({ config: './config.json', environment: 'production' });
+
+await app.initialize(); app.start();
+
+RDE_Asset_MetaData
+version: 3.12 creator: Core Team owner: gokul kannan
+
+RDE_Details_Tech_Spec
+Language : Python 3.9+ Framework : FastAPI / Django Dependencies : pandas, asyncio, pydantic License : MIT
+
+RDE_Details_Overview
+This whitepaper provides a comprehensive cloud security framework covering identity management, data protection, threat detection, and compliance to help organizations secure their cloud environments.
+
+RDE_Details_Keypoints
+Production Ready, Fully Documented, Active Support, CI/CD Integrated
 - [Google Cloud Security Best Practices](https://cloud.google.com/security/best-practices)
 - [OWASP Cloud Security](https://owasp.org)
 - [MITRE ATT&CK for Cloud](https://attack.mitre.org/matrices/enterprise/cloud)
